@@ -16,6 +16,7 @@
 		C6898545280ECA3E0089D95A /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6898544280ECA3E0089D95A /* OnboardingView.swift */; };
 		C6898548280ECBC30089D95A /* FruitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6898547280ECBC30089D95A /* FruitModel.swift */; };
 		C689854A280ECC440089D95A /* FruitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6898549280ECC440089D95A /* FruitData.swift */; };
+		C69A55C62817E44700E76AE6 /* FruitListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69A55C52817E44700E76AE6 /* FruitListRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		C6898544280ECA3E0089D95A /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		C6898547280ECBC30089D95A /* FruitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
 		C6898549280ECC440089D95A /* FruitData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitData.swift; sourceTree = "<group>"; };
+		C69A55C52817E44700E76AE6 /* FruitListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitListRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 			children = (
 				C6898540280EC4010089D95A /* FruitCardView.swift */,
 				C6898542280EC8830089D95A /* StartButton.swift */,
+				C69A55C52817E44700E76AE6 /* FruitListRow.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 				C689854A280ECC440089D95A /* FruitData.swift in Sources */,
 				C6898541280EC4010089D95A /* FruitCardView.swift in Sources */,
 				C6225052280EC0CE002F812F /* ContentView.swift in Sources */,
+				C69A55C62817E44700E76AE6 /* FruitListRow.swift in Sources */,
 				C6898543280EC8830089D95A /* StartButton.swift in Sources */,
 				C6898545280ECA3E0089D95A /* OnboardingView.swift in Sources */,
 				C6898548280ECBC30089D95A /* FruitModel.swift in Sources */,
