@@ -17,6 +17,10 @@
 		C6898548280ECBC30089D95A /* FruitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6898547280ECBC30089D95A /* FruitModel.swift */; };
 		C689854A280ECC440089D95A /* FruitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6898549280ECC440089D95A /* FruitData.swift */; };
 		C69A55C62817E44700E76AE6 /* FruitListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69A55C52817E44700E76AE6 /* FruitListRow.swift */; };
+		C69A55C82817E7FC00E76AE6 /* FruitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69A55C72817E7FC00E76AE6 /* FruitDetailView.swift */; };
+		C69A55CA2817EAB700E76AE6 /* FruitHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69A55C92817EAB700E76AE6 /* FruitHeaderView.swift */; };
+		C69A55CC2817EC8F00E76AE6 /* SourceLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69A55CB2817EC8F00E76AE6 /* SourceLinkView.swift */; };
+		C69A55CE2817EDB700E76AE6 /* FruitNutritionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69A55CD2817EDB700E76AE6 /* FruitNutritionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +35,10 @@
 		C6898547280ECBC30089D95A /* FruitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
 		C6898549280ECC440089D95A /* FruitData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitData.swift; sourceTree = "<group>"; };
 		C69A55C52817E44700E76AE6 /* FruitListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitListRow.swift; sourceTree = "<group>"; };
+		C69A55C72817E7FC00E76AE6 /* FruitDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitDetailView.swift; sourceTree = "<group>"; };
+		C69A55C92817EAB700E76AE6 /* FruitHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitHeaderView.swift; sourceTree = "<group>"; };
+		C69A55CB2817EC8F00E76AE6 /* SourceLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceLinkView.swift; sourceTree = "<group>"; };
+		C69A55CD2817EDB700E76AE6 /* FruitNutritionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitNutritionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +103,9 @@
 				C6898540280EC4010089D95A /* FruitCardView.swift */,
 				C6898542280EC8830089D95A /* StartButton.swift */,
 				C69A55C52817E44700E76AE6 /* FruitListRow.swift */,
+				C69A55C92817EAB700E76AE6 /* FruitHeaderView.swift */,
+				C69A55CB2817EC8F00E76AE6 /* SourceLinkView.swift */,
+				C69A55CD2817EDB700E76AE6 /* FruitNutritionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -105,6 +116,7 @@
 				C622504F280EC0CE002F812F /* FruitsApp.swift */,
 				C6225051280EC0CE002F812F /* ContentView.swift */,
 				C6898544280ECA3E0089D95A /* OnboardingView.swift */,
+				C69A55C72817E7FC00E76AE6 /* FruitDetailView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -187,11 +199,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C69A55CE2817EDB700E76AE6 /* FruitNutritionView.swift in Sources */,
 				C689854A280ECC440089D95A /* FruitData.swift in Sources */,
+				C69A55CC2817EC8F00E76AE6 /* SourceLinkView.swift in Sources */,
 				C6898541280EC4010089D95A /* FruitCardView.swift in Sources */,
 				C6225052280EC0CE002F812F /* ContentView.swift in Sources */,
 				C69A55C62817E44700E76AE6 /* FruitListRow.swift in Sources */,
+				C69A55C82817E7FC00E76AE6 /* FruitDetailView.swift in Sources */,
 				C6898543280EC8830089D95A /* StartButton.swift in Sources */,
+				C69A55CA2817EAB700E76AE6 /* FruitHeaderView.swift in Sources */,
 				C6898545280ECA3E0089D95A /* OnboardingView.swift in Sources */,
 				C6898548280ECBC30089D95A /* FruitModel.swift in Sources */,
 				C6225050280EC0CE002F812F /* FruitsApp.swift in Sources */,
